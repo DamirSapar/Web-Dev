@@ -1,0 +1,146 @@
+div#div1 {
+    background-color: rgb(255,255,255);
+    border-radius: 8px;
+    box-shadow: 0 6px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 15px;
+    width: 396px; 
+    height: auto;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-box{
+    max-width: 500px;
+    margin-right: 32px;
+    margin-bottom: 80px; 
+} 
+
+body {
+    background-color: rgb(240, 242, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+    min-height: 100vh;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+input {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+button.first {
+    width: 100%;
+    padding: 11px 16px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid rgb(24, 119, 242);
+    background-color: rgb(24, 119, 242);
+    color: white;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+button.first:hover {
+    cursor:pointer;
+    background-color:rgba(24, 119, 242, 0.95);
+    border:1px solid rgba(24, 119, 242, 0.95);
+}
+
+p#p1 {
+    color: rgb(24, 119, 242);
+    font-family: Helvetica, sans-serif;
+}
+
+p#p1:hover {
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+p#p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 380px;
+    text-align: center;
+
+
+}
+
+
+button.second {
+    width: 80%;
+    padding: 11px 16px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #42b72a;
+    background-color: #42b72a;
+    color: white;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family:inherit;
+    font-weight: 700;
+}
+
+button.second:hover {
+    cursor: pointer;
+    border: 1px solid rgb(60, 172, 37);
+    background-color: rgb(60, 172, 37);
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Root {
+    display: flex;
+    width: 100%;
+    max-width: 1000px; 
+    justify-content: center; 
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.left-box img {
+    width: 300px;
+    margin-left: -28px; 
+}
+.left-box p {
+    font-size: 28px;
+    line-height: 32px;
+    margin-top: -10px;
+    width: 500px;
+}
+div#div1 form {
+    width: 100%;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
