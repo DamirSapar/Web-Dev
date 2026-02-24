@@ -1,0 +1,27 @@
+
+<div class="product-container">
+  @for (product of products; track product.id) {
+    <div class="product-card">
+      <div class="image-box">
+        <img [src]="product.image" [alt]="product.name">
+      </div>
+
+      <h2>{{ product.name }}</h2>
+      <p class="description">{{ product.description }}</p>
+      
+      <div class="info">
+        <span class="rating">⭐ {{ product.rating }}</span><br>
+        <span class="price">{{ product.price.toLocaleString() }} ₸</span>
+      </div>
+
+      <div class="actions">
+        <a [href]="product.link" target="_blank" class="buy-btn">Купить на Kaspi</a>
+        
+        <div class="share-buttons">
+          <button (click)="shareOnWhatsApp(product)" class="share-wa">WhatsApp</button>
+          <button (click)="shareOnTelegram(product)" class="share-tg">Telegram</button>
+        </div>
+      </div>
+    </div>
+  }
+</div>
