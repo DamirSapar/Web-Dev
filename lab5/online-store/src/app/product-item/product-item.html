@@ -1,0 +1,23 @@
+<div class="card">
+  <img [src]="product.image" [alt]="product.name">
+  <h3>{{ product.name }}</h3>
+  <p class="desc">{{ product.description }}</p>
+  
+  <div class="stats">
+    <span>⭐ {{ product.rating }}</span>
+    <span class="likes-count">❤️ {{ product.likes }}</span>
+  </div>
+
+  <div class="btn-group">
+    <button (click)="like()" class="like-btn">Like</button>
+    
+    <button (click)="delete()" class="delete-btn">Delete</button>
+  </div>
+
+  <div class="share-group">
+    <button (click)="share('wa')">WA</button>
+    <button (click)="share('tg')">TG</button>
+  </div>
+  
+  <a [href]="product.link" target="_blank" class="kaspi-link">Open Kaspi</a>
+</div>

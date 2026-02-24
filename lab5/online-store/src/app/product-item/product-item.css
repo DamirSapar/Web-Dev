@@ -1,0 +1,18 @@
+.card {
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  background: white;
+}
+
+.like-btn { background: #e8f5e9; color: #2e7d32; border: none; padding: 5px 10px; cursor: pointer; }
+.delete-btn { background: #ffebee; color: #c62828; border: none; padding: 5px 10px; cursor: pointer; margin-left: 10px; }
+
+.kaspi-link {
+  display: block;
+  margin-top: 10px;
+  color: #0088cc;
+  text-decoration: none;
+  font-weight: bold;
+}
